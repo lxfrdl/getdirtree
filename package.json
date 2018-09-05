@@ -1,6 +1,6 @@
 {
   "name": "getdirtree",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reading directory trees into a json data structure",
   "main": "src/getdirdtree.js",
   "author": "Alex Freidel",
