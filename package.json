@@ -1,0 +1,21 @@
+{
+  "name": "getdirtree",
+  "version": "0.0.1",
+  "description": "Reading directory trees into a json data structure",
+  "main": "src/getdirdtree.js",
+  "author": "Alex Freidel",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "coffee-script": "^1.11.1",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha spec --recursive --require spec/helpers/chai.js --require coffee-script/register --compilers coffee:coffee-script/register",
+    "test-watch": "mocha -b --recursive -w spec --require spec/helpers/chai.js --require coffee-script/register --compilers coffee:coffee-script/register"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6"
+  }
+}
